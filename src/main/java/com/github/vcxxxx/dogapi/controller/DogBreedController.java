@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 /** REST controller for managing DogBreed entities. */
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://myfrontend.com"})
 @RestController
 @RequestMapping("/api/dogbreeds")
 public class DogBreedController {
