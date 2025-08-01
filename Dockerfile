@@ -6,14 +6,13 @@ WORKDIR /app
 COPY pom.xml .
 RUN mvn dependency:go-offline -B
 
-
 COPY src ./src
 
 # Build the project and package it as a jar
 RUN mvn clean package -DskipTests
 
 # Stage 2: Run the application
-FROM amazoncorretto:17-jre-alpine
+FROM eclipse-temurin:17-jre-alpine
 
 WORKDIR /app
 
