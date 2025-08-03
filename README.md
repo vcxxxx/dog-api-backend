@@ -25,6 +25,8 @@ CORS is enabled to accept requests from:
 - Postman collection provided for easy testing
 - Dockerized for deployment (Render)
 - Unit tests included
+- Full idempotency ensured across all endpoints, including POST requests
+- Strict and robust validation on all inputs to maintain data integrity
 
 
 ## 🛠️ Tech Stack
