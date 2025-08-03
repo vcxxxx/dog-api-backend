@@ -8,7 +8,7 @@ A Spring Boot REST API for managing dog breed information, built with Java 17 an
 
 **Integrated Frontend Application:** https://dog-api-frontend.vercel.app
 
-> **Note:** This backend is hosted on [Render](https://render.com) using the free tier. If inactive, it can take **2–3 minutes** to spin up after a period of inactivity.
+> **Note:** This backend is hosted on [Render](https://render.com) using the free tier. If inactive, it can take **2–3 minutes** to restart the server after a period of inactivity.
 
 ## CORS Configuration
 
