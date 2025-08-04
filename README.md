@@ -29,7 +29,7 @@ CORS is enabled to accept requests from:
 - Strict and robust validation on all inputs to maintain data integrity
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Java 17**
 - **Spring Boot**
